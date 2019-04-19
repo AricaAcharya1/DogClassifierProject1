@@ -1,0 +1,33 @@
+Argument 1: uploaded_images/
+Argument 2: vgg
+Argument 3: dognames.txt
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = vgg 
+ dogfile = dognames.txt
+
+Empty Dictionary results_dic - n items= 0
+
+Printing all key-value pairs in dictionary results_dic:
+Filename= Coffee_Mug_01.jpg    Pet Label= ['coffee mug']
+Filename= Dog_01.jpg    Pet Label= ['dog']
+Filename= Dog_02.jpg    Pet Label= ['dog']
+Filename=  Elephant_01.jpg    Pet Label= ['elephant']
+*******end of get pet label*************
+
+
+*** Results Summary for CNN Model Architecture VGG ***
+N Images            :   4
+N Dog Images        :   2
+N Not-Dog Images    :   2
+ Summary Statistics (percentages) on Model Run 
+key: pct_match value: 25.0
+key: pct_correct_dogs value: 100.0
+key: pct_correct_breed value: 0.0
+key: pct_correct_notdogs value: 100.0
+
+INCORRECT Dog Breed Assignment:
+Real:                        dog   Classifier:                     pomeranian
+Real:                        dog   Classifier:                     pomeranian
+
+** Total Elapsed Runtime: 0:0:8
